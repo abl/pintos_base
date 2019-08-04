@@ -33,7 +33,7 @@ restrictions:
 ### Assumptions
 
 This guide assumes you have downloaded the correct VM from the course website;
-see [https://course.ccs.neu.edu/cs5600f18/pintos/vm-setup.html].
+see https://course.ccs.neu.edu/cs5600f18/pintos/vm-setup.html.
 
 These projects _might_ work under WSL or more modern versions of Linux.
 
@@ -45,7 +45,7 @@ These projects _might_ work under WSL or more modern versions of Linux.
    - **You must run `update_path.sh` every time you move your repository.**
    - Note that multiple copies of Pintos can't coexist at this time; you can
      either use multiple VMs or update your `$PINTOS_HOME` to match your current
-     project; you might find [https://direnv.net/] helpful in automatically
+     project; you might find https://direnv.net/ helpful in automatically
      managing this.
    - When in doubt, start a new shell and run `update_path.sh`; it will tell you
      if it made any changes and what to do.
@@ -141,8 +141,8 @@ support for memory mapped files.
 3. The "extra credit" is not extra credit but will be worth approximately 3 out
    of 100 points.
 4. The design document template link in the assignment details is broken; use
-   [https://course.ccs.neu.edu/cs5600f18/assignments/dd.txt](this project 3
-   design document link) instead.
+   [this project 3 design document link](https://course.ccs.neu.edu/cs5600f18/assignments/dd.txt)
+   instead.
 5. As with all projects in this class, you may use any coding style you like _so
    long as it is consistent within your group_.
    - **IF YOU WANT TO REFORMAT AN EXISTING FILE, FIRST COMMIT THE REFORMAT AND
@@ -159,8 +159,7 @@ support for memory mapped files.
 **READ THE ERRATA BEFORE READING THE ASSIGNMENT DETAILS.**
 
 Refer to the
-[http://www.ccs.neu.edu/home/skotthe/classes/cs5600/fall/2015/pintos/doc/pintos_4.html](project
-3 assignment details).
+[project 3 assignment details](http://www.ccs.neu.edu/home/skotthe/classes/cs5600/fall/2015/pintos/doc/pintos_4.html).
 
 ## Project 4
 
@@ -173,8 +172,8 @@ subdirectories, and a buffer cache to the existing filesystem.
 1. This repository contains a working "project 2" implementation; ignore
    references that say you will need a working "project 2 or 3" implementation.
 2. The design document template link in the assignment details is broken; use
-   [https://course.ccs.neu.edu/cs5600f18/assignments/filesys.txt](this project 4
-   design document link) instead.
+   [this project 4 design document link](https://course.ccs.neu.edu/cs5600f18/assignments/filesys.txt)
+   instead.
 3. As with all projects in this class, you may use any coding style you like _so
    long as it is consistent within your group_.
    - **IF YOU WANT TO REFORMAT AN EXISTING FILE, FIRST COMMIT THE REFORMAT AND
@@ -191,8 +190,7 @@ subdirectories, and a buffer cache to the existing filesystem.
 **READ THE ERRATA BEFORE READING THE ASSIGNMENT DETAILS.**
 
 Refer to the
-[http://www.ccs.neu.edu/home/skotthe/classes/cs5600/fall/2015/pintos/doc/pintos_5.html](project
-4 assignment details).
+[project 4 assignment details](http://www.ccs.neu.edu/home/skotthe/classes/cs5600/fall/2015/pintos/doc/pintos_5.html).
 
 ## Difficulty
 
