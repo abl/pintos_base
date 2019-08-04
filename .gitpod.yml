@@ -1,2 +1,12 @@
 image:
   file: .gitpod.dockerfile
+
+vscode:
+  extensions:
+    - ms-vscode.cpptools@0.24.1:ZscINhbubRAEEUNM3O/Rxw==
+
+ports:
+  - port: 1234
+    onOpen: ignore
+  - port: 31234
+    onOpen: ignore

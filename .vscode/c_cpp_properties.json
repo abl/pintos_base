@@ -4,7 +4,10 @@
     "intelliSenseMode": "gcc-x64",
     "compilerPath": "/usr/bin/gcc",
     "includePath": [
-      "${workspaceFolder}/**"
+      "/workspace/pintos_base/pintos/src",
+      "/workspace/pintos_base/pintos/src/lib",
+      "/workspace/pintos_base/pintos/src/lib/kernel",
+      "/workspace/pintos_base/pintos/src/lib/user"
     ],
     "defines": [],
     "cStandard": "c11",
