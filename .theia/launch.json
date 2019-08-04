@@ -1,0 +1,1845 @@
+{
+    "configurations": [
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base child-syn-read",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base child-syn-read",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base sm-seq-random",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base sm-seq-random",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base child-syn-wrt",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base child-syn-wrt",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base sm-seq-block",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base sm-seq-block",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base sm-create",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base sm-create",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base lg-create",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base lg-create",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base lg-seq-block",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base lg-seq-block",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base syn-read",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base syn-read",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base syn-remove",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base syn-remove",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base sm-random",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base sm-random",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base lg-seq-random",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base lg-seq-random",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base syn-write",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base syn-write",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base sm-full",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base sm-full",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base lg-random",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base lg-random",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/base lg-full",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/base lg-full",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-vine",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-vine",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-sparse",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-sparse",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-rm-root",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-rm-root",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-create",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-create",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended syn-rw",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended syn-rw",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-rm-cwd",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-rm-cwd",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-open",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-open",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-empty-name",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-empty-name",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-mkdir",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-mkdir",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-rmdir",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-rmdir",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-mk-tree",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-mk-tree",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-two-files",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-two-files",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-seq-lg",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-seq-lg",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-under-file",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-under-file",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-over-file",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-over-file",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-seq-sm",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-seq-sm",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-rm-parent",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-rm-parent",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended tar",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended tar",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended dir-rm-tree",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended dir-rm-tree",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-root-lg",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-root-lg",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended child-syn-rw",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended child-syn-rw",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-file-size",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-file-size",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-dir-lg",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-dir-lg",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-root-sm",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-root-sm",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug filesys/extended grow-tell",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug filesys/extended grow-tell",
+            "program": "/workspace/pintos_base/pintos/src/filesys/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm page-merge-par",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm page-merge-par",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-over-code",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-over-code",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm pt-bad-read",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm pt-bad-read",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm pt-grow-bad",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm pt-grow-bad",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-inherit",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-inherit",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-twice",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-twice",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-close",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-close",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm page-merge-stk",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm page-merge-stk",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm pt-big-stk-obj",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm pt-big-stk-obj",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm page-linear",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm page-linear",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-over-stk",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-over-stk",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm pt-write-code",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm pt-write-code",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-misalign",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-misalign",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm child-inherit",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm child-inherit",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm child-qsort-mm",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm child-qsort-mm",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm child-mm-wrt",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm child-mm-wrt",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-unmap",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-unmap",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-read",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-read",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-clean",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-clean",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-bad-fd",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-bad-fd",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-overlap",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-overlap",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-null",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-null",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-exit",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-exit",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm page-merge-seq",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm page-merge-seq",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-write",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-write",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm pt-write-code2",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm pt-write-code2",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm child-qsort",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm child-qsort",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm pt-grow-stack",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm pt-grow-stack",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-over-data",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-over-data",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm pt-grow-pusha",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm pt-grow-pusha",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-zero",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-zero",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm child-linear",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm child-linear",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm page-parallel",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm page-parallel",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-shuffle",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-shuffle",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm child-sort",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm child-sort",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm pt-bad-addr",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm pt-bad-addr",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm pt-grow-stk-sc",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm pt-grow-stk-sc",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm page-shuffle",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm page-shuffle",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm mmap-remove",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm mmap-remove",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        },
+        {
+            "MIMode": "gdb",
+            "args": [],
+            "cwd": "/workspace/pintos_base",
+            "debugServerArgs": "--debug vm page-merge-mm",
+            "debugServerPath": "/workspace/pintos_base/scripts/run_test.py",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "/workspace/pintos_base/pintos/src/utils/pintos-gdb",
+            "miDebuggerServerAddress": "localhost:1234",
+            "name": "Debug vm page-merge-mm",
+            "program": "/workspace/pintos_base/pintos/src/vm/build/kernel.o",
+            "request": "launch",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "stopAtEntry": false,
+            "type": "cppdbg"
+        }
+    ],
+    "version": "0.2.0"
+}
